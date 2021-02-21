@@ -1,0 +1,90 @@
+:root {
+    --primary-color: rgba(18, 79, 129, 0.808);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightsteelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p{
+    color: rgb(17, 28, 78);
+    text-align: center;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color:whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    outline: 0;
+    width: 20%;
+}
+
+.money-img{
+    justify-content: center;
+    width: 600px;
+    height: 250px;
+}
+
+.currency{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    padding: 10px 20px;
+    border: 1px solid rgb(10, 35, 61);
+    border-radius: 2px;
+    font-size: 16px;
+    outline: 0;
+}
+
+.currency input{
+    padding: 10px 20px;
+    border: 1px solid rgb(10, 35, 61);
+    border-radius: 2px;
+    color: black;
+    font-size: 16px;
+    background: transparent;
+    text-align: right;
+    margin-left: 5px;
+    width: 200px;
+    outline: 0;
+}
+
+.flip-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate{
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
