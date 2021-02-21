@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 100vh;
+    max-width: 150vh;
     margin: 0;
     background-color: slategray;
     border-radius: 50vh;
@@ -55,7 +55,7 @@ h1 {
 }
 
 .fa-pause{
-    color: white;
+    color:lightgreen;
 }
 
 span.timestamp{
