@@ -40,9 +40,9 @@ function updateProgress() {
     //rounding the min
     let minutes = Math.floor(video.currentTime / 60);
 
-            if (minutes < 10) {
-                minutes = `0${minutes}`;
-            }
+    if (minutes < 10) {
+        minutes = `0${minutes}`;
+    }
 
     // rounding the seconds
     let seconds = Math.floor(video.currentTime % 60);
