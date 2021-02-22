@@ -80,7 +80,7 @@ p{
 }
 
 .rate{
-    color: var(--primary-color);
+    color: black;
     font-size: 16px;
     padding: 0 10px;
 }
