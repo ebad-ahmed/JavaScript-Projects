@@ -12,6 +12,7 @@ body {
     justify-content: left;
     min-width: 100vh;
     margin: 0;
+    background-image: url(./image/bgimg.jpg);
 }
 
 .container {
@@ -22,12 +23,12 @@ li {
     padding: 5px;
     font-size: 18px;
     margin-left: 2%;
-    color: #45A29E;
+    color:white;
 }
 
 li a {
     text-decoration: none;
-    color: #45A29E;
+    color: white;
 }
 
 .header {
@@ -38,7 +39,7 @@ li a {
 }
 
 h1{
-    color:#45A29E;
+    color:white;
 }
 
 a {
