@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:  rgb(27, 123, 155);
+    background-color: rgb(27, 123, 155);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .letter {
-    border-bottom:3px solid white;
+    border-bottom: 3px solid white;
     display: inline-flex;
     font-size: 36px;
     align-items: center;
@@ -61,8 +61,19 @@ h1 {
     height: 50px;
 }
 
-.pop-container{
-    background-color: rgba(0, 0, 0,0.3); 
+.figure-container {
+    stroke: white;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    fill: transparent;
+}
+
+.hangman-part {
+    display: none;
+}
+
+.pop-container {
+    background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -70,15 +81,15 @@ h1 {
     left: 0;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    display:none;
-} 
+    justify-content: center;
+    display: none;
+}
 
-.popup{
-   background-color: skyblue;
-   border-radius: 5px;
-   padding: 30px;
-   text-align: center;
+.popup {
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
 }
 
 .popup button {
@@ -92,20 +103,26 @@ h1 {
 }
 
 .popup button:focus {
-    outline : 0;
+    outline: 0;
 }
 
-.popup button:active{
+.popup button:active {
     transform: scale(0.95);
 }
 
-.figure-container {
-    stroke: white;
-    stroke-width: 4px;
-    stroke-linecap: round;
-    fill: transparent;
+.slider-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: -50px;
+    transition: transform 0.5s ease-in-out;
 }
 
-.hangman-part {
-    display: none;
+.slider-container p {
+    margin: 0;
+}
+
+.slider-container .show {
+    transform: translateY(-50px);
 }
